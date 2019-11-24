@@ -20,7 +20,7 @@
   url: /intro
   not_numbered: true
 
-- title: Data Science
+- title: DuckieBot I
   url: /01/what-is-data-science
   sections:
   - title: Introduction
@@ -34,4 +34,7 @@
       url: /01/3/subsection/subsections
     - title: Subsection Demo 2
       url: /01/3/subsection/subsectiontwo
+
+- title: DuckieBot II
+  url: /02/DuckieBot2
 
