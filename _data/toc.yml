@@ -21,7 +21,7 @@
   not_numbered: true
 
 - title: DuckieBot I
-  url: /01/what-is-data-science
+  url: /01/DuckieBot1
   sections:
   - title: Introduction
     url: /01/1/intro
@@ -37,4 +37,10 @@
 
 - title: DuckieBot II
   url: /02/DuckieBot2
+
+- title: Planar Arm
+  url: /03/PlanarArm
+
+- title: DuckieBot III
+  url: /04/DuckieBot3
 
