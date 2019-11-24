@@ -23,17 +23,8 @@
 - title: DuckieBot I
   url: /01/DuckieBot1
   sections:
-  - title: Introduction
-    url: /01/1/intro
-  - title: Why Data Science?
-    url: /01/2/why-data-science
-  - title: Plotting the Classics
-    url: /01/3/Plotting_the_Classics
-    subsections:
-    - title: Subsection Demo 1
-      url: /01/3/subsection/subsections
-    - title: Subsection Demo 2
-      url: /01/3/subsection/subsectiontwo
+  - title: Kinematics
+    url: /01/Kinematics
 
 - title: DuckieBot II
   url: /02/DuckieBot2

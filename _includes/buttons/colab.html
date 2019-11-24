@@ -1,0 +1,5 @@
+{% if site.use_colab_button %}
+
+<a href="{{ site.colab_url }}/{{ page.interact_link | url_encode }}" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+{%- endif %}

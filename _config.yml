@@ -55,7 +55,7 @@ jupyterhub_url                   : ""  # The URL for your JupyterHub. If no URL,
 jupyterhub_interact_text         : "Interact"  # The text that interact buttons will contain.
 
 # Binder link settings
-use_binder_button                : true  # If 'true', add a binder button for interactive links
+use_binder_button                : false  # If 'true', add a binder button for interactive links
 binderhub_url                    : "https://mybinder.org"  # The URL for your BinderHub. If no URL, use ""
 binder_repo_base                 : "https://github.com/"  # The site on which the textbook repository is hosted
 binder_repo_org                  : "jupyter"  # The username or organization that owns this repository
@@ -63,16 +63,20 @@ binder_repo_name                 : "jupyter-book"  # The name of the repository 
 binder_repo_branch               : "gh-pages"  # The branch on which your textbook is hosted.
 binderhub_interact_text          : "Interact"  # The text that interact buttons will contain.
 
+# Colab link settings
+use_colab_button                 : true  # If 'true', add a colab button for interactive links
+colab_url                        : "https://colab.research.google.com/github/dellaert/robotics/blob/master/"
+
 # Thebelab settings
-use_thebelab_button              : true  # If 'true', display a button to allow in-page running code cells with Thebelab
+use_thebelab_button              : false  # If 'true', display a button to allow in-page running code cells with Thebelab
 thebelab_button_text             : "Thebelab"  # The text to display inside the Thebelab initialization button
 codemirror_theme                 : "abcdef"  # Theme for codemirror cells, for options see https://codemirror.net/doc/manual.html#config
 
 # nbinteract settings
-use_show_widgets_button              : true  # If 'true', display a button to allow in-page running code cells with nbinteract
+use_show_widgets_button          : true  # If 'true', display a button to allow in-page running code cells with nbinteract
 
 # Download settings
-use_download_button              : true  # If 'true', display a button to download a zip file for the notebook
+use_download_button              : false  # If 'true', display a button to download a zip file for the notebook
 download_button_text             : "Download" # The text that download buttons will contain
 download_page_header             : "Made with Jupyter Book" # A header that will be displayed at the top of and PDF-printed page
 
