@@ -8,14 +8,14 @@
   <title>Search the site</title>
   <meta name="description" content="        ">
 
-  <link rel="canonical" href="/search">
-  <link rel="alternate" type="application/rss+xml" title="Introduction to Robotics with Factor Graphs" href="/feed.xml">
+  <link rel="canonical" href="/robotics/robotics/search">
+  <link rel="alternate" type="application/rss+xml" title="Introduction to Robotics with Factor Graphs" href="/robotics/robotics/feed.xml">
 
-  <meta property="og:url"         content="/search" />
+  <meta property="og:url"         content="/robotics/robotics/search" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Search the site" />
 <meta property="og:description" content="        " />
-<meta property="og:image"       content="/images/logo/logo.png" />
+<meta property="og:image"       content="/robotics/images/logo/logo.png" />
 
 <meta name="twitter:card" content="summary">
 
@@ -24,10 +24,10 @@
   {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "/search",
+  "mainEntityOfPage": "robotics/search",
   "headline": "Search the site",
-  "datePublished": "2019-11-24T12:49:22-05:00",
-  "dateModified": "2019-11-24T12:49:22-05:00",
+  "datePublished": "2019-11-24T12:59:38-05:00",
+  "dateModified": "2019-11-24T12:59:38-05:00",
   "description": "        ",
   "author": {
     "@type": "Person",
@@ -38,21 +38,21 @@
     "name": "Data 100 at UC Berkeley",
     "logo": {
       "@type": "ImageObject",
-      "url": "",
+      "url": "robotics",
       "width": 60,
       "height": 60
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "",
+    "url": "robotics",
     "height": 60,
     "width": 60
   }
 }
 
   </script>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/robotics/assets/css/styles.css">
 
   <!-- <link rel="manifest" href="/manifest.json"> -->
   <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#efae0a"> -->
@@ -61,7 +61,7 @@
   <meta name="theme-color" content="#233947">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="/images/logo/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/robotics/images/logo/favicon.ico">
 
   <!-- MathJax Config -->
   <!-- Allow inline math using $ and automatically break long math lines -->
@@ -88,19 +88,19 @@ MathJax.Hub.Config({
 
 
   <!-- DOM updating function -->
-  <script src="/assets/js/page/dom-update.js"></script>
+  <script src="/robotics/assets/js/page/dom-update.js"></script>
 
   <!-- Selectors for elements on the page -->
-  <script src="/assets/js/page/documentSelectors.js"></script>
+  <script src="/robotics/assets/js/page/documentSelectors.js"></script>
 
   <!-- Define some javascript variables that will be useful in other javascript -->
   <script>
-    const site_basename = '';
+    const site_basename = 'robotics';
   </script>
 
   <!-- Add AnchorJS to let headers be linked -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js" async></script>
-  <script src="/assets/js/page/anchors.js" async></script>
+  <script src="/robotics/assets/js/page/anchors.js" async></script>
 
   <!-- Include Turbolinks to make page loads fast -->
   <!-- https://github.com/turbolinks/turbolinks -->
@@ -122,7 +122,7 @@ MathJax.Hub.Config({
 
 const thebelabCellButton = id =>
   `<a id="thebelab-cell-button-${id}" class="btn thebebtn o-tooltip--left" data-tooltip="Interactive Mode">
-    <img src="/assets/images/edit-button.svg" alt="Start thebelab interactive mode">
+    <img src="/robotics/assets/images/edit-button.svg" alt="Start thebelab interactive mode">
   </a>`
 
 
@@ -252,7 +252,7 @@ initFunction(addThebelabButtonToCodeCells);
 
   <!-- Load the auto-generating TOC (non-async otherwise the TOC won't load w/ turbolinks) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js" async></script>
-  <script src="/assets/js/page/tocbot.js"></script>
+  <script src="/robotics/assets/js/page/tocbot.js"></script>
 
   <!-- Google analytics -->
   
@@ -272,11 +272,11 @@ initFunction(addThebelabButtonToCodeCells);
   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" async></script>
 
   <!-- Load custom website scripts -->
-  <script src="/assets/js/scripts.js" async></script>
+  <script src="/robotics/assets/js/scripts.js" async></script>
 
   <!-- Load custom user CSS and JS  -->
-  <script src="/assets/custom/custom.js" async></script>
-  <link rel="stylesheet" href="/assets/custom/custom.css">
+  <script src="/robotics/assets/custom/custom.js" async></script>
+  <link rel="stylesheet" href="/robotics/assets/custom/custom.css">
 
   <!-- Update interact links w/ REST param, is defined in includes so we can use templates -->
   
@@ -511,10 +511,10 @@ initFunction(initQuery);
 </script>
 
   <!-- Load JS that depends on site variables -->
-  <script src="/assets/js/page/copy-button.js" async></script>
+  <script src="/robotics/assets/js/page/copy-button.js" async></script>
 
   <!-- Hide cell code -->
-  <script src="/assets/js/page/hide-cell.js" async></script>
+  <script src="/robotics/assets/js/page/hide-cell.js" async></script>
 
   <!-- Printing the screen -->
   <!-- Include nbinteract for interactive widgets -->
@@ -534,7 +534,7 @@ printContent = () => {
     printJS({
         printable: 'textbook_content',
         type: 'html',
-        css: "/assets/css/styles.css",
+        css: "/robotics/assets/css/styles.css",
         style: "#textbook_content {padding-top: 40px};",
         scanStyles: false,
         targetStyles: ["*"],
@@ -560,7 +560,7 @@ initFunction(initPrint)
 
 
 <nav id="js-sidebar" class="c-textbook__sidebar">
-  <a href="https://https://dellaert.github.io/robotics/"><img src="/images/logo/logo.png" class="textbook_logo" id="sidebar-logo" alt="textbook logo" data-turbolinks-permanent/></a>
+  <a href="https://dellaert.github.io/robotics/"><img src="/robotics/images/logo/logo.png" class="textbook_logo" id="sidebar-logo" alt="textbook logo" data-turbolinks-permanent/></a>
   <h2 class="c-sidebar__title">Introduction to Robotics with Factor Graphs</h2>
   <ul class="c-sidebar__chapters">
     
@@ -574,7 +574,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href=".html"
+          href="/robotics/intro.html"
         >
           
           Home
@@ -595,7 +595,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href=".html"
+          href="/robotics/01/what-is-data-science.html"
         >
           
             1.
@@ -619,7 +619,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href=".html"
+                  href="/robotics/01/1/intro.html"
                 >
                   
                     1.1
@@ -638,7 +638,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/01/2/why-data-science.html"
+                  href="/robotics/01/2/why-data-science.html"
                 >
                   
                     1.2
@@ -657,7 +657,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/01/3/Plotting_the_Classics.html"
+                  href="/robotics/01/3/Plotting_the_Classics.html"
                 >
                   
                     1.3
@@ -672,7 +672,7 @@ initFunction(initPrint)
 
                   <li class="c-sidebar__subsection">
                     <a class="c-sidebar__entry "
-                      href="/01/3/subsection/subsections.html"
+                      href="/robotics/01/3/subsection/subsections.html"
                     >
                       
                         1.3.1
@@ -686,7 +686,7 @@ initFunction(initPrint)
 
                   <li class="c-sidebar__subsection">
                     <a class="c-sidebar__entry "
-                      href="/01/3/subsection/subsectiontwo.html"
+                      href="/robotics/01/3/subsection/subsectiontwo.html"
                     >
                       
                         1.3.2
@@ -715,7 +715,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/02/causality-and-experiments.html"
+          href="/robotics/02/causality-and-experiments.html"
         >
           
             2.
@@ -739,7 +739,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/02/1/observation-and-visualization-john-snow-and-the-broad-street-pump.html"
+                  href="/robotics/02/1/observation-and-visualization-john-snow-and-the-broad-street-pump.html"
                 >
                   
                     2.1
@@ -758,7 +758,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/02/2/snow-s-grand-experiment.html"
+                  href="/robotics/02/2/snow-s-grand-experiment.html"
                 >
                   
                     2.2
@@ -777,7 +777,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/02/3/establishing-causality.html"
+                  href="/robotics/02/3/establishing-causality.html"
                 >
                   
                     2.3
@@ -796,7 +796,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/02/4/randomization.html"
+                  href="/robotics/02/4/randomization.html"
                 >
                   
                     2.4
@@ -815,7 +815,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/02/5/endnote.html"
+                  href="/robotics/02/5/endnote.html"
                 >
                   
                     2.5
@@ -845,7 +845,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/03/programming-in-python.html"
+          href="/robotics/03/programming-in-python.html"
         >
           
             3.
@@ -869,7 +869,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/03/1/Expressions.html"
+                  href="/robotics/03/1/Expressions.html"
                 >
                   
                     3.1
@@ -888,7 +888,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/03/2/Names.html"
+                  href="/robotics/03/2/Names.html"
                 >
                   
                     3.2
@@ -907,7 +907,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/03/3/Calls.html"
+                  href="/robotics/03/3/Calls.html"
                 >
                   
                     3.3
@@ -926,7 +926,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/03/4/Introduction_to_Tables.html"
+                  href="/robotics/03/4/Introduction_to_Tables.html"
                 >
                   
                     3.4
@@ -956,7 +956,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/04/Types.html"
+          href="/robotics/04/Types.html"
         >
           
             4.
@@ -980,7 +980,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/04/1/Numbers.html"
+                  href="/robotics/04/1/Numbers.html"
                 >
                   
                     4.1
@@ -999,7 +999,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/04/2/Strings.html"
+                  href="/robotics/04/2/Strings.html"
                 >
                   
                     4.2
@@ -1018,7 +1018,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/04/3/Comparison.html"
+                  href="/robotics/04/3/Comparison.html"
                 >
                   
                     4.3
@@ -1056,7 +1056,7 @@ initFunction(initPrint)
     </button>
     <div class="buttons">
 <div class="download-buttons-dropdown">
-    <button id="dropdown-button-trigger" class="interact-button"><img src="/assets/images/download-solid.svg" alt="Download" /></button>
+    <button id="dropdown-button-trigger" class="interact-button"><img src="/robotics/assets/images/download-solid.svg" alt="Download" /></button>
     <div class="download-buttons">
         
         <a id="interact-button-print"><button id="interact-button-download" class="interact-button">.pdf</button></a>
@@ -1069,12 +1069,12 @@ initFunction(initPrint)
   </div>
   <!-- Empty sidebar placeholder that we'll auto-fill with javascript -->
   <aside class="sidebar__right">
-    <header><h4 class="nav__title"><img src="/assets/images/list-solid.svg" alt="Search" />   On this page</h4></header>
+    <header><h4 class="nav__title"><img src="/robotics/assets/images/list-solid.svg" alt="Search" />   On this page</h4></header>
     <nav class="onthispage">
     </nav>
   </aside>
-  <a href="/search.html" class="topbar-right-button" id="search-button">
-    <img src="/assets/images/search-solid.svg" alt="Search" />
+  <a href="/robotics/search.html" class="topbar-right-button" id="search-button">
+    <img src="/robotics/assets/images/search-solid.svg" alt="Search" />
   </a>
 </div>
 
@@ -1094,7 +1094,7 @@ initFunction(initPrint)
             "Chapter 1: Introduction Data are descriptions of the world around us, collected through observation and stored on computers. Computers enable us to infer properties of the world from these descriptions. Data science is the discipline of drawing conclusions from data using computation. There are three core aspects of effective data analysis: exploration, prediction, and inference. This text develops a consistent approach to all three, introducing statistical ideas and fundamental ideas in computer science concurrently. We focus on a minimal set of core techniques that they apply to a vast range of real-world applications. A foundation in data science requires not...",
         "categories": [],
         "tags": [],
-        "url": "/01/1/intro.html",
+        "url": "/robotics/01/1/intro.html",
         "teaser":null},{
         "title": "Why Data Science?",
         
@@ -1102,7 +1102,7 @@ initFunction(initPrint)
             "Why Data Science? Most important decisions are made with only partial information and uncertain outcomes. However, the degree of uncertainty for many decisions can be reduced sharply by public access to large data sets and the computational tools required to analyze them effectively. Data-driven decision making has already transformed a tremendous breadth of industries, including finance, advertising, manufacturing, and real estate. At the same time, a wide range of academic disciplines are evolving rapidly to incorporate large-scale data analysis into their theory and practice. Studying data science enables individuals to bring these techniques to bear on their work, their scientific...",
         "categories": [],
         "tags": [],
-        "url": "/01/2/why-data-science.html",
+        "url": "/robotics/01/2/why-data-science.html",
         "teaser":null},{
         "title": "Plotting the Classics",
         
@@ -1110,7 +1110,7 @@ initFunction(initPrint)
             "In this example, we will explore statistics for two classic novels: The Adventures of Huckleberry Finn by Mark Twain, and Little Women by Louisa May Alcott. The text of any book can be read by a computer at great speed. Books published before 1923 are currently in the public domain, meaning that everyone has the right to copy or use the text in any way. Project Gutenberg is a website that publishes public domain books online. Using Python, we can load the text of these books directly from the web. This example is meant to illustrate some of the broad...",
         "categories": [],
         "tags": [],
-        "url": "/01/3/Plotting_the_Classics.html",
+        "url": "/robotics/01/3/Plotting_the_Classics.html",
         "teaser":null},{
         "title": "Subsection Demo 1",
         
@@ -1118,7 +1118,7 @@ initFunction(initPrint)
             "             Subsections  You can also add subsections to your markdown files. These will be displayed along with the sidebar!                     ",
         "categories": [],
         "tags": [],
-        "url": "/01/3/subsection/subsections.html",
+        "url": "/robotics/01/3/subsection/subsections.html",
         "teaser":null},{
         "title": "Subsection Demo 2",
         
@@ -1126,7 +1126,7 @@ initFunction(initPrint)
             "             A second subsection page  And here's another subsection page!                     ",
         "categories": [],
         "tags": [],
-        "url": "/01/3/subsection/subsectiontwo.html",
+        "url": "/robotics/01/3/subsection/subsectiontwo.html",
         "teaser":null},{
         "title": "Data Science",
         
@@ -1134,7 +1134,7 @@ initFunction(initPrint)
             "What is Data Science Data Science is about drawing useful conclusions from large and diverse data sets through exploration, prediction, and inference. Exploration involves identifying patterns in information. Prediction involves using information we know to make informed guesses about values we wish we knew. Inference involves quantifying our degree of certainty: will those patterns we found also appear in new observations? How accurate are our predictions? Our primary tools for exploration are visualizations and descriptive statistics, for prediction are machine learning and optimization, and for inference are statistical tests and models. Statistics is a central component of data science because...",
         "categories": [],
         "tags": [],
-        "url": "/01/what-is-data-science.html",
+        "url": "/robotics/01/what-is-data-science.html",
         "teaser":null},{
         "title": "John Snow and the Broad Street Pump",
         
@@ -1142,7 +1142,7 @@ initFunction(initPrint)
             "Observation and Visualization: John Snow and the Broad Street Pump One of the earliest examples of astute observation eventually leading to the establishment of causality dates back more than 150 years. To get your mind into the right timeframe, try to imagine London in the 1850’s. It was the world’s wealthiest city but many of its people were desperately poor. Charles Dickens, then at the height of his fame, was writing about their plight. Disease was rife in the poorer parts of the city, and cholera was among the most feared. It was not yet known that germs cause disease;...",
         "categories": [],
         "tags": [],
-        "url": "/02/1/observation-and-visualization-john-snow-and-the-broad-street-pump.html",
+        "url": "/robotics/02/1/observation-and-visualization-john-snow-and-the-broad-street-pump.html",
         "teaser":null},{
         "title": "Snow’s “Grand Experiment”",
         
@@ -1150,7 +1150,7 @@ initFunction(initPrint)
             "Snow&#8217;s &#8220;Grand Experiment&#8221; Encouraged by what he had learned in Soho, Snow completed a more thorough analysis of cholera deaths. For some time, he had been gathering data on cholera deaths in an area of London that was served by two water companies. The Lambeth water company drew its water upriver from where sewage was discharged into the River Thames. Its water was relatively clean. But the Southwark and Vauxhall (S&amp;V) company drew its water below the sewage discharge, and thus its supply was contaminated. The map below shows the areas served by the two companies. Snow honed in on...",
         "categories": [],
         "tags": [],
-        "url": "/02/2/snow-s-grand-experiment.html",
+        "url": "/robotics/02/2/snow-s-grand-experiment.html",
         "teaser":null},{
         "title": "Establishing Causality",
         
@@ -1158,7 +1158,7 @@ initFunction(initPrint)
             "Establishing Causality In the language developed earlier in the section, you can think of the people in the S&amp;V houses as the treatment group, and those in the Lambeth houses at the control group. A crucial element in Snow’s analysis was that the people in the two groups were comparable to each other, apart from the treatment. In order to establish whether it was the water supply that was causing cholera, Snow had to compare two groups that were similar to each other in all but one aspect–their water supply. Only then would he be able to ascribe the differences...",
         "categories": [],
         "tags": [],
-        "url": "/02/3/establishing-causality.html",
+        "url": "/robotics/02/3/establishing-causality.html",
         "teaser":null},{
         "title": "Randomization",
         
@@ -1166,7 +1166,7 @@ initFunction(initPrint)
             "Randomization An excellent way to avoid confounding is to assign individuals to the treatment and control groups at random, and then administer the treatment to those who were assigned to the treatment group. Randomization keeps the two groups similar apart from the treatment. If you are able to randomize individuals into the treatment and control groups, you are running a randomized controlled experiment, also known as a randomized controlled trial (RCT). Sometimes, people’s responses in an experiment are influenced by their knowing which group they are in. So you might want to run a blind experiment in which individuals do...",
         "categories": [],
         "tags": [],
-        "url": "/02/4/randomization.html",
+        "url": "/robotics/02/4/randomization.html",
         "teaser":null},{
         "title": "Endnote",
         
@@ -1174,7 +1174,7 @@ initFunction(initPrint)
             "Endnote In the terminology of that we have developed, John Snow conducted an observational study, not a randomized experiment. But he called his study a “grand experiment” because, as he wrote, “No fewer than three hundred thousand people … were divided into two groups without their choice, and in most cases, without their knowledge …” Studies such as Snow’s are sometimes called “natural experiments.” However, true randomization does not simply mean that the treatment and control groups are selected “without their choice.” The method of randomization can be as simple as tossing a coin. It may also be quite a...",
         "categories": [],
         "tags": [],
-        "url": "/02/5/endnote.html",
+        "url": "/robotics/02/5/endnote.html",
         "teaser":null},{
         "title": "Causality and Experiments",
         
@@ -1182,7 +1182,7 @@ initFunction(initPrint)
             "Causality and Experiments \"These problems are, and will probably ever remain, among the inscrutable secrets of nature. They belong to a class of questions radically inaccessible to the human intelligence.\" —The Times of London, September 1849, on how cholera is contracted and spread Does the death penalty have a deterrent effect? Is chocolate good for you? What causes breast cancer? All of these questions attempt to assign a cause to an effect. A careful examination of data can help shed light on questions like these. In this section you will learn some of the fundamental concepts involved in establishing causality....",
         "categories": [],
         "tags": [],
-        "url": "/02/causality-and-experiments.html",
+        "url": "/robotics/02/causality-and-experiments.html",
         "teaser":null},{
         "title": "Expressions",
         
@@ -1190,7 +1190,7 @@ initFunction(initPrint)
             "3.1 Expressions Programming languages are much simpler than human languages. Nonetheless, there are some rules of grammar to learn in any language, and that is where we will begin. In this text, we will use the Python programming language. Learning the grammar rules is essential, and the same rules used in the most basic programs are also central to more sophisticated programs. Programs are made up of expressions, which describe to the computer how to combine pieces of data. For example, a multiplication expression consists of a * symbol between two numerical expressions. Expressions, such as 3 * 4, are...",
         "categories": [],
         "tags": [],
-        "url": "/03/1/Expressions.html",
+        "url": "/robotics/03/1/Expressions.html",
         "teaser":null},{
         "title": "Names",
         
@@ -1198,7 +1198,7 @@ initFunction(initPrint)
             "3.2 Names Names are given to values in Python using an assignment statement. In an assignment, a name is followed by =, which is followed by any expression. The value of the expression to the right of = is assigned to the name. Once a name has a value assigned to it, the value will be substituted for that name in future expressions. a = 10 b = 20 a + b 30 A previously assigned name can be used in the expression to the right of =. quarter = 1/4 half = 2 * quarter half 0.5 However, only...",
         "categories": [],
         "tags": [],
-        "url": "/03/2/Names.html",
+        "url": "/robotics/03/2/Names.html",
         "teaser":null},{
         "title": "Call Expressions",
         
@@ -1206,7 +1206,7 @@ initFunction(initPrint)
             "Call expressions invoke functions, which are named operations. The name of the function appears first, followed by expressions in parentheses. abs(-12) 12 round(5 - 1.3) 4 max(2, 2 + 3, 4) 5 In this last example, the max function is called on three arguments: 2, 5, and 4. The value of each expression within parentheses is passed to the function, and the function returns the final value of the full call expression. The max function can take any number of arguments and returns the maximum. A few functions are available by default, such as abs and round, but most functions...",
         "categories": [],
         "tags": [],
-        "url": "/03/3/Calls.html",
+        "url": "/robotics/03/3/Calls.html",
         "teaser":null},{
         "title": "Introduction to Tables",
         
@@ -1214,7 +1214,7 @@ initFunction(initPrint)
             "We can now apply Python to analyze data. We will work with data stored in Table structures. Tables are a fundamental way of representing data sets. A table can be viewed in two ways: a sequence of named columns that each describe a single attribute of all entries in a data set, or a sequence of rows that each contain all information about a single individual in a data set. We will study tables in great detail in the next several chapters. For now, we will just introduce a few methods without going into technical details. The table cones has...",
         "categories": [],
         "tags": [],
-        "url": "/03/4/Introduction_to_Tables.html",
+        "url": "/robotics/03/4/Introduction_to_Tables.html",
         "teaser":null},{
         "title": "Programming in Python",
         
@@ -1222,7 +1222,7 @@ initFunction(initPrint)
             "             Programming in Python  Programming can dramatically improve our ability to collect and analyze information about the world, which in turn can lead to discoveries through the kind of careful reasoning demonstrated in the previous section. In data science, the purpose of writing a program is to instruct a computer to carry out the steps of an analysis. Computers cannot study the world on their own. People must describe precisely what steps the computer should take in order to collect and analyze data, and those steps are expressed through programs.                     ",
         "categories": [],
         "tags": [],
-        "url": "/03/programming-in-python.html",
+        "url": "/robotics/03/programming-in-python.html",
         "teaser":null},{
         "title": "Numbers",
         
@@ -1230,7 +1230,7 @@ initFunction(initPrint)
             "Computers are designed to perform numerical calculations, but there are some important details about working with numbers that every programmer working with quantitative data should know. Python (and most other programming languages) distinguishes between two different types of numbers: Integers are called int values in the Python language. They can only represent whole numbers (negative, zero, or positive) that don't have a fractional component Real numbers are called float values (or floating point values) in the Python language. They can represent whole or fractional numbers but have some limitations. The type of a number is evident from the way it...",
         "categories": [],
         "tags": [],
-        "url": "/04/1/Numbers.html",
+        "url": "/robotics/04/1/Numbers.html",
         "teaser":null},{
         "title": "Strings",
         
@@ -1238,7 +1238,7 @@ initFunction(initPrint)
             "Much of the world's data is text, and a piece of text represented in a computer is called a string. A string can represent a word, a sentence, or even the contents of every book in a library. Since text can include numbers (like this: 5) or truth values (True), a string can also describe those things. The meaning of an expression depends both upon its structure and the types of values that are being combined. So, for instance, adding two strings together produces another string. This expression is still an addition expression, but it is combining a different type...",
         "categories": [],
         "tags": [],
-        "url": "/04/2/Strings.html",
+        "url": "/robotics/04/2/Strings.html",
         "teaser":null},{
         "title": "Comparisons",
         
@@ -1246,7 +1246,7 @@ initFunction(initPrint)
             "Boolean values most often arise from comparison operators. Python includes a variety of operators that compare values. For example, 3 is larger than 1 + 1. 3 &gt; 1 + 1 True The value True indicates that the comparison is valid; Python has confirmed this simple fact about the relationship between 3 and 1+1. The full set of common comparison operators are listed below. Comparison Operator True example False Example Less than &lt; 2 &lt; 3 2 &lt; 2 Greater than &gt; 3&gt;2 3&gt;3 Less than or equal &lt;= 2 &lt;= 2 3 &lt;= 2 Greater or equal &gt;= 3...",
         "categories": [],
         "tags": [],
-        "url": "/04/3/Comparison.html",
+        "url": "/robotics/04/3/Comparison.html",
         "teaser":null},{
         "title": "Data Types",
         
@@ -1254,7 +1254,7 @@ initFunction(initPrint)
             "             Every value has a type, and the built-in type function returns the type of the result of any expression.            One type we have encountered already is a built-in function. Python indicates that the type is a builtin_function_or_method; the distinction between a function and a method is not important at this stage.                   type(abs)                    builtin_function_or_method               This chapter will explore many useful types of data.                     ",
         "categories": [],
         "tags": [],
-        "url": "/04/Types.html",
+        "url": "/robotics/04/Types.html",
         "teaser":null},{
         "title": "Home",
         
@@ -1262,7 +1262,7 @@ initFunction(initPrint)
             "             Introduction  Try $\\alpha$.  There are 7 chapters in this book:   First.                       ",
         "categories": [],
         "tags": [],
-        "url": "/intro.html",
+        "url": "/robotics/intro.html",
         "teaser":null},]
 </script>
             </div>
@@ -1274,7 +1274,7 @@ initFunction(initPrint)
 </nav>
 
               <footer>
-  <p class="footer">This page was created by <a href="https://github.com/jupyter/jupyter-book/graphs/contributors">The Jupyter Book Community</a></p>
+  <p class="footer">Copyright Frank Dellaert and Seth Hutchinson. All Rights Reserved.</p>
 </footer>
 
             </div>
