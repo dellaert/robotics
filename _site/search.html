@@ -26,8 +26,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "/search",
   "headline": "Search the site",
-  "datePublished": "2019-11-24T12:02:39-05:00",
-  "dateModified": "2019-11-24T12:02:39-05:00",
+  "datePublished": "2019-11-24T12:49:22-05:00",
+  "dateModified": "2019-11-24T12:49:22-05:00",
   "description": "        ",
   "author": {
     "@type": "Person",
@@ -574,7 +574,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/intro.html"
+          href=".html"
         >
           
           Home
@@ -595,7 +595,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/01/what-is-data-science.html"
+          href=".html"
         >
           
             1.
@@ -619,7 +619,7 @@ initFunction(initPrint)
 
               <li class="c-sidebar__section">
                 <a class="c-sidebar__entry "
-                  href="/01/1/intro.html"
+                  href=".html"
                 >
                   
                     1.1
@@ -1255,166 +1255,6 @@ initFunction(initPrint)
         "categories": [],
         "tags": [],
         "url": "/04/Types.html",
-        "teaser":null},{
-        "title": "Advanced Topics",
-        
-        "excerpt":
-            "             Advanced topics and guides  This section covers more advanced topics in building and configuring Jupyter Book.                       ",
-        "categories": [],
-        "tags": [],
-        "url": "/advanced/advanced.html",
-        "teaser":null},{
-        "title": "Building, previewing, and publishing your book with CircleCI",
-        
-        "excerpt":
-            "Automatically building, previewing, and pushing your book with CircleCI CircleCI is a continuous integration service that lets you run various commands every time a new change is made to a repository. This can be used to build your book, preview changes, and even push live HTML as you update your book content. In order to accomplish each of these, we'll use a CircleCI configuration file. This is a YAML file that is used to tell Circle what to do with your repository. In each case, the expectation is that your master branch holds your book content. We'll step through each...",
-        "categories": [],
-        "tags": [],
-        "url": "/advanced/circleci.html",
-        "teaser":null},{
-        "title": "Building your book with Netlify",
-        
-        "excerpt":
-            "Automatically building and hosting your book with Netlify Netlify is a continuous deployment service that can automatically build an updated copy of your Jupyter Book as you push new content. It can be used across git clients including GitHub, GitLab, and Bitbucket. Although Netlify has both free and paid tiers, the build process is the same across both. Importantly, the free tier only allows for 100GB of bandwidth usage per month across all of your Netlify built projects. If your Jupyter Book will be used by a large audience, or if you're creating many Jupyter Books, you might want to...",
-        "categories": [],
-        "tags": [],
-        "url": "/advanced/netlify.html",
-        "teaser":null},{
-        "title": "BETA - Citations and bibliographies",
-        
-        "excerpt":
-            "Including citations in your book ✨experimental✨ Because jupyter-book is built on top of Jekyll, we can use the excellent jekyll-scholar book to include citations and a bibliography with your book. Note that this only works if you're building your book HTML locally and hosting the HTML files online somewhere. This can still use GitHub pages, but not the auto-generation of a cite from markdown files feature of GitHub pages. This is because GitHub pages doesn't include the jekyll-scholar plugin. How to use citations Including citations with your markdown files or notebooks is done in the following way. Modify the file...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/citations.html",
-        "teaser":null},{
-        "title": "Running each page when building your book",
-        
-        "excerpt":
-            "Executing pages of your book ✨experimental✨ Sometimes you'd like to execute each page's content before building its HTML - this ensures that the outputs are up-to-date and that they still run. Jupyter Book has the ability to execute any code in your content when you build each page's HTML although by default this is disabled for notebook and simple markdown documents. Default execution behavior Jupyter Book will decide whether to execute your book's content based on the types of files used to store your content. By default, Jupyter Book assumes that : notebook outputs are already present in an .ipynb...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/executing.html",
-        "teaser":null},{
-        "title": "Features and customization",
-        
-        "excerpt":
-            "             Features  This is a short demonstration textbook to show the general layout / style of textbooks built with Jupyter and Jekyll.  To begin, click on one of the chapter sections in the sidebar to the left. Alternatively, click on the \"next\" button below in order to read further.  The first sections demonstrate some simple functionality of Jupyter Books, while the final chapters contain a subset of content from the Foundations in Data Science textbook.                     ",
-        "categories": [],
-        "tags": [],
-        "url": "/features/features.html",
-        "teaser":null},{
-        "title": "Hiding code blocks or entire cells",
-        
-        "excerpt":
-            "Hiding or removing code blocks or entire cells It's possible to control which cells show up in your final book pages. For example, you may want to display a complex visualization to illustrate an idea, but don't want the page to be cluttered with a large code cell that generated the viz. In other cases, you may want to remove a code cell entirely. In this case, you have two options: Hiding the inputs of a code cell will hide the cell's contents and provide a button that lets readers reveal the content. Removing the inputs (or the entire cell)...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/hiding.html",
-        "teaser":null},{
-        "title": "Connecting content with JupyterHub and Binder",
-        
-        "excerpt":
-            "Connecting content with JupyterHub and Binder Because Jupyter Books are built with Jupyter Notebooks, you can connect your online book with a Jupyter kernel running in the cloud. This lets readers quickly interact with your content in a traditional coding interface using either JupyterHub or BinderHub. This page describes a few ways to accomplish this. Creating interact buttons for BinderHub BinderHub can be used to build the environment needed to run a repository, and provides a link that lets others interact with that repository. If your Jupyter Book is hosted online on GitHub, you can automatically insert buttons that link...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/interact.html",
-        "teaser":null},{
-        "title": "BETA - Adding interactivity to your book pages",
-        
-        "excerpt":
-            "Interactive code in your book Sometimes you'd rather let people interact with code directly on the page instead of sending them off to a Binder or a JupyterHub. There are currently a few ways to make this happen in Jupyter Book (both of which are experimental). This page describes how to bring interactivity to your book. Both of these tools use MyBinder to provide a remote kernel. Making your page inputs interactive ✨experimental✨ If you'd like to provide interactivity for your content without making your readers leave the Jupyter Book site, you can use a project called Thebelab. This provides...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/interactive_cells.html",
-        "teaser":null},{
-        "title": "BETA - Using Jupytext for text-based Notebook content",
-        
-        "excerpt":
-            "Jupytext with Jupyter Book ✨experimental✨ It's also possible to build Jupyter Books using Jupytext, a tool for two-way conversion between Jupyter Notebooks an text-based versions of a Jupyter Notebook (e.g., .md or .py). Using Jupytext allows you to store your Jupyter Notebooks as text files, which makes them much better for collaboration and \"diffing\" using a tool like Git. The drawbacks are that you no longer keep the outputs with your files, which means building your book with outputs requires running each file at build-time. This notebook is stored in Jupytext format! For example, the notebook for this page is...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/jupytext.html",
-        "teaser":null},{
-        "title": "BETA - Controlling page layout",
-        
-        "excerpt":
-            "Controlling the page layout ✨experimental✨ There are a few ways to control the layout of a page with Jupyter Book. Many of these ideas take inspiration from the Edward Tufte layout CSS guide. Our plot Let's begin with a sample plot. Here's the code we'll use: # Fixing random state for reproducibility np.random.seed(19680801) N = 10 data = [np.logspace(0, 1, 100) + .2 * np.random.randn(100) + ii for ii in range(N)] data = np.array(data).T cmap = plt.cm.coolwarm rcParams[&#39;axes.prop_cycle&#39;] = cycler(color=cmap(np.linspace(0, 1, N))) from matplotlib.lines import Line2D custom_lines = [Line2D([0], [0], color=cmap(0.), lw=4), Line2D([0], [0], color=cmap(.5), lw=4), Line2D([0], [0], color=cmap(1.), lw=4)]...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/layout.html",
-        "teaser":null},{
-        "title": "Feature Limits",
-        
-        "excerpt":
-            "Demo page to showcase markdown NOTE: None of the information on this page applies to Jupyter Books. It is taken from the Markdown documentation, and is meant to give an idea of how Jupyter Book renders really long pages of very diverse content! Amount of Content You should be able to put as much content, and as many headings, within each chapter as you want. In order to enable this we allow the table of contents on the right hand side to be scrollable. All of the sections on here allow us to test that. And they'll give you a...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/limits.html",
-        "teaser":null},{
-        "title": "Markdown files",
-        
-        "excerpt":
-            "Creating book content The two kinds of files that contain course content are: Jupyter Notebooks Markdown files Each are contained in the content/ folder and referenced from _data/toc.yml. If the file is markdown, it will be copied over with front-matter YAML added so that Jekyll can parse it. print(&quot;Python (and any language-specific) code still works as expected&quot;) As does non-language code. Page navigation Table of Contents You may notice that there's a sidebar to the right (if your screen is wide enough). These are automatically generated from the headers that are present in your page. The sidebar will automatically capture...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/markdown.html",
-        "teaser":null},{
-        "title": "Jupyter notebooks",
-        
-        "excerpt":
-            "Content with notebooks You can also create content with Jupyter Notebooks. The content for the current page is contained in a Jupyter Notebook in the notebooks/ folder of the repository. This means that we can include code blocks and their outputs, and export them to Jekyll markdown. You can find the original notebook for this page at this address Markdown + notebooks As it is markdown, you can embed images, HTML, etc into your posts! You an also $add_{math}$ and $$ math^{blocks} $$or $$ \\begin{align*} \\mbox{mean} la_{tex} \\\\ \\\\ math blocks \\end{align*} $$But make sure you \\$Escape \\$your \\$dollar signs...",
-        "categories": [],
-        "tags": [],
-        "url": "/features/notebooks.html",
-        "teaser":null},{
-        "title": "Getting started",
-        
-        "excerpt":
-            "The Jupyter Book Guide This is a guide for creating your own book using Jupyter Notebooks and Jekyll. Book content is written in markdown and Jupyter Notebooks, and jupyter-book converts these into a book fit for hosting on the web. Install the command-line interface First off, make sure you have the CLI installed so that you can work with Jupyter Book. The Jupyter-Book CLI allows you to create, build, upgrade, and otherwise control your Jupyter Book. You can install it via pip with the following command: pip install jupyter-book A quick tour of a Jupyter Book Jupyter-Book comes with a...",
-        "categories": [],
-        "tags": [],
-        "url": "/guide/01_overview.html",
-        "teaser":null},{
-        "title": "Create your book",
-        
-        "excerpt":
-            "Create your Jupyter Book This page covers how to create a Jupyter Book with your own content. You've got three primary ways to create your Jupyter Book. by starting with a minimal book Running the following command will create a new Jupyter Book with a few content pages and a Table of Contents to get you started: jupyter-book create mybookname This will create a new book using your content in mybookname/. You'll then need to Add your content to mybookname/content/ Modify mybookname/_data/toc.yml to match your content Modify mybookname/_config.yml to the configuration you'd like Note that if you choose to create...",
-        "categories": [],
-        "tags": [],
-        "url": "/guide/02_create.html",
-        "teaser":null},{
-        "title": "Build HTML for each page of your book",
-        
-        "excerpt":
-            "Building and publishing your book Once you've added content and configured your book, it's time to build the HTML for each page of your book. We'll use the jupyter-book build command-line tool for this. In the next step, we'll stitch these HTML pages into a book. Prerequisites In order to build the HTML for each page, you should have followed the steps in creating your Jupyter Book structure. You should have a Jupyter Book structure in a local folder on your computer, a collection of notebook/markdown files in your content/ folder, a _data/toc.yml file that defines the structure of your...",
-        "categories": [],
-        "tags": [],
-        "url": "/guide/03_build.html",
-        "teaser":null},{
-        "title": "Build and publish your book online",
-        
-        "excerpt":
-            "Publishing your book online Now that you've built the HTML for each page, it's time to stitch together these pages into HTML for a book and host it online. This means building the left Table of Contents and stitching each of your pages together. You've got two options to do this. Option 1: GitHub builds and hosts your book with GitHub Pages: When you run jupyter-book create it generates the structure of a Jekyll template. GitHub Pages can automatically build a website from a Jekyll template, and you can use this to automatically generate the HTML for your book. Option...",
-        "categories": [],
-        "tags": [],
-        "url": "/guide/04_publish.html",
-        "teaser":null},{
-        "title": "Frequently Asked Questions (FAQ)",
-        
-        "excerpt":
-            "The following are some common issues and questions that have arisen when building your textbook with Jekyll. How can I update my book? Sometimes Jupyter Book will get updates that you want to incorporate into a book you've already built. The easiest way to do this is to use the Command-Line Interface to upgrade your book. To upgrade a pre-existing Jupyter Book, run the following command: jupyter-book upgrade path/to/mybook This will do the following: Generate a fresh Jupyter Book in mybook_UPGRADED using the content files in your current book. If this succeeds, copy over the contents of mybook_UPGRADED into your...",
-        "categories": [],
-        "tags": [],
-        "url": "/guide/05_faq.html",
-        "teaser":null},{
-        "title": "How-to and advanced topics",
-        
-        "excerpt":
-            "This page contains more advanced and complete information about the jupyter-book repository. See the sections below. Enable Google Analytics If you have a Google Account, you can use Google Analytics to collect some information on the traffic to your Jupyter Book. With this tool, you can find out how many people are using your book, where they come from and how they access it, wether they are using the Desktop or the mobile version etc. To add Google Analytics to your Jupyter Book, navigate to Google Analytics, create a new Google Analytics account and add the url of your Jupyter...",
-        "categories": [],
-        "tags": [],
-        "url": "/guide/06_advanced.html",
         "teaser":null},{
         "title": "Home",
         

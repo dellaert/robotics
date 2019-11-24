@@ -17,14 +17,11 @@
 # - header: My Header  # Will insert a header with no link in the sidebar
 
 - title: Home
-  url: /intro
   not_numbered: true
 
 - title: Data Science
-  url: /01/what-is-data-science
   sections:
   - title: Introduction
-    url: /01/1/intro
   - title: Why Data Science?
     url: /01/2/why-data-science
   - title: Plotting the Classics
