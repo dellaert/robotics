@@ -20,14 +20,14 @@
   url: /intro
   not_numbered: true
 
-- title: DuckieBot I
-  url: /01/DuckieBot1
+- title: Agents
+  url: /01/Agents
+
+- title: Diff Drive Robot
+  url: /02/DiffDrive
   sections:
   - title: Kinematics
-    url: /01/Kinematics
-
-- title: DuckieBot II
-  url: /02/DuckieBot2
+    url: /02/Kinematics
 
 - title: Planar Arm
   url: /03/PlanarArm
