@@ -25,7 +25,7 @@
 
 - title: Diff Drive Robot
   url: /02/DiffDrive
-  sections:
+  sections: 
   - title: Kinematics
     url: /02/Kinematics
 
