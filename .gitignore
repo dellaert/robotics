@@ -1,3 +1,4 @@
+.gitignore~
 _site/*
 
 # Byte-compiled / optimized / DLL files
@@ -104,3 +105,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# sass
+.sass-cache/
