@@ -1,19 +1,19 @@
 ---
 redirect_from:
-  - "/02/kinematics"
-interact_link: content/02/Kinematics.ipynb
+  - "/01/planning"
+interact_link: content/01/Planning.ipynb
 kernel_name: python3
 has_widgets: false
 title: |-
-  Kinematics
+  Planning
 prev_page:
+  url: /01/Agents.html
+  title: |-
+    Agents
+next_page:
   url: /02/DiffDrive.html
   title: |-
     A DiffDrive Robot
-next_page:
-  url: /03/PlanarArm.html
-  title: |-
-    Planar Manipulators
 suffix: .ipynb
 
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
@@ -24,7 +24,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="DD-kinematics">DD kinematics<a class="anchor-link" href="#DD-kinematics"> </a></h2>
+<h2 id="Planning">Planning<a class="anchor-link" href="#Planning"> </a></h2>
 </div>
 </div>
 </div>
@@ -34,7 +34,14 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's define wheel speeds $\varphi_L$ and $\varphi_R$.</p>
+<p>An outline:</p>
+<ul>
+<li>States and actions in a discretized 2D world</li>
+<li>Naive policies</li>
+<li>Optimal policies and Dijkstra</li>
+<li>Optimal trajectories and Graph Search</li>
+<li>Finite horizon planning</li>
+</ul>
 
 </div>
 </div>

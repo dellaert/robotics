@@ -22,25 +22,28 @@
 
 - title: Agents
   url: /01/Agents
+  sections: 
+  - title: Planning
+    url: /01/Planning
 
-- title: Diff Drive Robot
+- title: A DiffDrive Robot
   url: /02/DiffDrive
   sections: 
   - title: Kinematics
     url: /02/Kinematics
 
-- title: Planar Arm
+- title: Planar Manipulators
   url: /03/PlanarArm
 
-- title: DuckieBot III
+- title: Vision for Robots
   url: /04/DuckieBot3
 
-- title: Self Driving Car
+- title: Self-Driving Cars
   url: /05/SelfDrivingCar
 
-- title: DuckieBot IV
+- title: Visual SLAM
   url: /06/DuckieBot4
 
-- title: DuckieBot V
+- title: Deep Learning
   url: /07/DuckieBot5
 
