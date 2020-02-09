@@ -35,6 +35,8 @@
 - title: A DiffDrive Robot
   url: /02/DiffDrive
   sections: 
+  - title: Geometry
+    url: /02/Geometry
   - title: Kinematics
     url: /02/Kinematics
 
