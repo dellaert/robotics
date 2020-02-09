@@ -20,6 +20,10 @@
   url: /intro
   not_numbered: true
 
+- title: License
+  url: /license
+  not_numbered: true
+
 - title: Agents
   url: /01/Agents
   sections: 

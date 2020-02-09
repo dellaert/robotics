@@ -30,7 +30,7 @@ baseurl: "/robotics" # the subpath of your site, e.g. /blog. If there is no subp
 # Jupyter Book settings
 
 # Main page settings
-footer_text               : Copyright Frank Dellaert and Seth Hutchinson. All Rights Reserved.
+footer_text               : Copyright (c) 2019-2020 Frank Dellaert and Seth Hutchinson. All Rights Reserved.
 
 # Sidebar settings
 show_sidebar              : true  # Show the sidebar. Only set to false if your only wish to host a single page.
