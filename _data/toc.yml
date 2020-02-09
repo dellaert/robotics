@@ -25,6 +25,8 @@
   sections: 
   - title: Planning
     url: /01/Planning
+  - title: Probability and Bayes Nets
+    url: /01/1-Bayes-nets
 
 - title: A DiffDrive Robot
   url: /02/DiffDrive
