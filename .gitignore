@@ -108,3 +108,7 @@ venv.bak/
 
 # sass
 .sass-cache/
+content/.DS_Store
+content/01/.DS_Store
+content/01/Figures/.DS_Store
+.DS_Store
