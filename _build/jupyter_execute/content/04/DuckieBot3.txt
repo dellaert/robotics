@@ -1,0 +1,16 @@
+# DuckieBot III
+* Robot: DuckieBot
+* Sensor: camera
+* Think: localize
+* Act: DD
+* Topics needed: control & visual servoing, vision, visual odometry
+* Factor graph concepts: Jacobians of visual observations, VO
+
+
+## Camera Geometry
+
+## Visual Servoing and Visual Odometry
+
+## Jacobians of Visual Observations
+
+## Con

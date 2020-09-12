@@ -1,0 +1,16 @@
+# DuckieBot V
+* Robot: DuckieBot
+* Sensor: camera
+* Think: localize
+* Act: DD
+* Topics needed: Machine learning (maybe deep), CNNs
+* Factor graph concepts: 
+
+
+## Machine Learning
+
+## Deep Learning, CNN
+
+## Objec
+
+## Policy Gradient

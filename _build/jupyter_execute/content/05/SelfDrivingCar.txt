@@ -1,0 +1,18 @@
+# Self Driving Car
+* Robot: Self-driving Car
+* Sensor: LIDAR
+* Think: plan routes, mapping
+* Act: continuous, acceleration, steering wheel
+* Topics needed: car kinematics (Ackerman steering), ICP, dense mapping, A*
+* Factor graph concepts: poseSLAM
+
+
+## Car Kinematics
+
+## Point Cloud Alignment
+
+## Dense Mapping
+
+## A* Path Planning
+
+## poseSLAM

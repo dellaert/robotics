@@ -1,0 +1,10 @@
+## Planning
+
+An outline:
+
+*   States and actions in a discretized 2D world
+*   Naive policies
+*   Optimal policies and Dijkstra
+*   Optimal trajectories and Graph Search
+*   Finite horizon planning
+

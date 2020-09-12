@@ -1,0 +1,17 @@
+# Agents
+* Robot: simulated
+* Sensor: noisy state
+* Think: plan, Markov localization, RL
+* Act: Discrete
+* Topics needed: RL graphs & KF
+* Factor graph concepts: planning, markov localization
+
+
+## Discrete States and Actions
+
+## Classical Planning
+
+## MDP
+A Markov decision process (MDP) has states $x$ and actions $a$...
+
+## Reinforcement Learning 

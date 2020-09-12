@@ -1,0 +1,20 @@
+# Planar Arms
+* Robot: Planar arms
+* Sensor: joint encoders
+* Think: motion planning
+* Act: control joint angles 
+* Topics needed: manipulator kinematics, control, motion planning, optimal control and trajectory optimization, RRT
+* Factor graph concepts: smoothing w GTSAM, between factors, goal factor, obstacle factors (after RRT) $n_s$ is the sample, $n_{new}$ is the new node, etc.
+
+
+## Manipulator Kinematics
+
+## Control 
+
+## Motion Planner
+
+## Optimal Control
+
+## Trajectory Optimization
+
+## RRTs

@@ -1,0 +1,21 @@
+# A differential drive robot
+* Robot: DuckieBot
+* Sensor: wheel encoder
+* Think: localize
+* Act: DD
+* Topics needed: DD kinematics, sensor fusion, localization (MCL), factor graphs & KF
+* Factor graph concepts: Kalman filter
+
+
+## Differential Drive kinematics
+In the [kinematics](Kinematics) section.
+
+## Sensor Fusion 
+
+## Factor Graphs
+
+## Localization
+
+## The Kalman Filter
+
+## Monte Carlo Localization

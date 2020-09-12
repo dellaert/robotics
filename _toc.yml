@@ -1,0 +1,19 @@
+file: README
+sections:
+- file: content/LICENSE
+  sections:
+  - file: content/intro
+  - file: content/03/PlanarArm
+  - file: content/04/DuckieBot3
+  - file: content/05/SelfDrivingCar
+  - file: content/02/DiffDrive
+    sections:
+    - file: content/02/Kinematics
+    - file: content/02/Geometry
+  - file: content/07/DuckieBot5
+  - file: content/01/Planning
+    sections:
+    - file: content/01/Agents
+    - file: content/01/1-Bayes-nets
+  - file: content/06/DuckieBot4
+- file: scripts/clean

@@ -1,0 +1,16 @@
+# DuckieBot IV
+* Robot: DuckieBot
+* Sensor: camera
+* Think: mapping
+* Act: DD
+* Topics needed: sparse mapping, sparse linear algebra
+* Factor graph concepts: bundle adjustment/SAM with landmarks
+
+
+## Sparse Linear Algebra
+
+## Sparse Mapping
+
+## Bundle Adjustment
+
+## Policy Gradient

@@ -1,0 +1,3 @@
+## DD kinematics
+
+Let's define wheel speeds $\varphi_L$ and $\varphi_R$.
