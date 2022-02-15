@@ -1,7 +1,7 @@
 # robotics
 A jupyter book draft about robotics and factor graphs
 
-Book is live at https://dellaert.github.io/robotics/intro.html
+Book is live at https://roboticsbook.org
 
 Organization: 
 - see [jupyter-book doc](https://jupyterbook.org/guide/01-5_tour.html)
